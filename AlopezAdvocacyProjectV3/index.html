@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>The Ability of Self Love</title>
+  <link rel="icon" href="img_101/darcsport.png">
+  <link href="reset.css" rel="stylesheet" type="text/css" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="reset-webview.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <!-- Part 1: Navbar Starter Code -->
+
+  <div class="navbar">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#about-container">About</a></li>
+      <li><a href="#Vid-container">Video</a></li>
+      <li><a href="#info-container">Recent News</a></li>
+      <li><button id="theme-button">Toggle Dark Mode</button></li>
+      <li><button id="motion-button">Reduce Motion</button></li>
+      <!-- Stretch Challenge: Drop Down -->
+    </ul>
+  </div>
+
+  <!--- Headings --->
+
+  <div class="header-container">
+    <div class="header-item">
+    </div>
+    <div class="header-item">
+      <h1>My Activism Project: The Importance of Fitness!</h1>
+      <h3>To support our buisness!</h3>
+      <button class=header-button type="button">Donate</button>
+      <button class="header-button" type=" button">Share</button>
+    </div>
+  </div>
+
+  <!--- About SECTION--->
+  <div id="about-container" class="revealable">
+    <h2>How will fitness benefit you?</h2>
+    <p>The use of fitness can benefit many things that you set your heart to do. with the starting of fitness, it can help many parts of your body, especially when becoming older it can support your strength!
+    </p>
+
+    <img src="img_101/runningcover.png" 
+  </div>
+
+  <!-- NEW SECTION Linked Video -->
+  <div id="Vid-container" class="revealable">
+    <h1>Training Video!</h1>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/dWuGqdsQCm4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </iframe>
+  </div>
+
+  <!--NEW SECTION Some links for the main body -->
+  <div id="info-container" class="revealable">
+    <h2>Benecifial News!</h2>
+    <a class="news" href="https://www.gale.com/open-access/gun-control" target="_blank" rel="noopener" rel="noreferrer">
+      <article>
+        <h3>The benefits of fitness for a Healthier Lifestyle.</h3>
+        
+      </article>
+    </a>
+    <a class="news"
+      href="https://www.helpguide.org/articles/healthy-living/the-mental-health-benefits-of-exercise.htm"
+      target="_blank" rel="noopener" rel="noreferrer">
+      <article>
+        <h3>The benefits of fitness for Mental Health.</h3>
+      </article>
+    </a>
+  </div>
+
+  <!--The petition form -->
+  <div class="petition revealable" id="petition">
+
+    <h2>Sign Our Petition 📢</h2>
+    <div class="petition-container">
+
+
+      <div class="petition-para">
+       Please take some time and sign this petition to help create a gym! With the help of everyone and this petition we will be able to create a very affordable gym for many to come and visit. Including special classes and specific weightlifting rooms for every type of lifting!
+      </div>
+
+      <div class="signatures" id="adds">
+        <p>🖊️ Tiffany from Toronto supports this.</p>
+        <p>🖊️ Chris Bumstead from USA supports this.</p>
+        <p>🖊️ Brian shaw from New York supports this.</p>
+        <p id="counter">🖊️ 5 people have signed this petition and support this cause.</p>
+      </div>
+
+    </div>
+
+    <!--- Sign Petition Form --->
+    <form id="sign-petition" title="sign-petition">
+      <!-- inputs go here -->
+      <label for="nom">Name:</label>
+      <input type="text" id="nom">
+
+      <label for="hometown">Hometown:</label>
+      <input type="text" id="hometown">
+
+      <label for="email">Email:</label>
+      <input type="email" id="email">
+    </form>
+
+    <!--- Sign Now Button --->
+    <button id="sign-now-button">Sign Now</button>
+
+  </div>
+
+  <!-- Footer-->
+
+  <div class="footer-container">
+    <div class="footer-links-container">
+      <a href="https://www.linkedin.com/in/adrian-lopez-56378b24a/" target="_blank" rel="noopener"
+        rel="noreferrer">Check Out My Linkedin!</a>
+
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div id="thanks-modal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <div id="modal-text-container">
+        <p id="thanks-modal-content">Thank you for supporting! </p>
+        <!-- button here (stretch feature) -->
+      </div>
+      <!-- image here-->
+      <img src="img_101/thankyou.png" alt="Thanks" class="square">
+    </div>
+
+  </div>
+
+  <script src="index.js"></script>
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+
+</body>
+
+</html>
